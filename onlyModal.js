@@ -1,7 +1,7 @@
 /** @license
-* peBox - MIT License
+* onlyModal - MIT License
 * Copyright (c) 2013 Joby Elliott
-* http://go.byjoby.net/peBox
+* http://go.byjoby.net/onlyModal
 * 
 * Permission is hereby granted, free of charge, to any person obtaining a copy
 * of this software and associated documentation files (the "Software"), to deal
@@ -14,7 +14,7 @@
 * all copies or substantial portions of the Software.
 */
 
-function peBox(obj,options) {
+function onlyModal(obj,options) {
 	var defaults = {
 		minSize:300
 	};
@@ -35,13 +35,13 @@ function peBox(obj,options) {
 	this.obj = obj;
 }
 
-peBox.prototype.checkSize_now = function () {
+onlyModal.prototype.checkSize_now = function () {
 	var width = window.innerWidth;
 }
-peBox.prototype.on = function () {
+onlyModal.prototype.on = function () {
 	
 }
-peBox.prototype.off = function () {
+onlyModal.prototype.off = function () {
 
 }
 
@@ -49,7 +49,7 @@ peBox.prototype.off = function () {
 	Note to self, don't debounce in prototype methods, objects need their
 	own debounced methods set up during construction
 */
-peBox.prototype.debounce = function (func, threshold, execAsap) {
+onlyModal.prototype.debounce = function (func, threshold, execAsap) {
 	var timeout;
 	return function debounced () {
 		var obj = this;

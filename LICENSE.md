@@ -1,8 +1,8 @@
-#peBox
+#onlyModal
 
 ##MIT License
 Copyright (c) 2013 Joby Elliott
-http://go.byjoby.net/peBox
+http://go.byjoby.net/onlyModal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
